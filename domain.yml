@@ -1,0 +1,27 @@
+intents:
+  - greet
+  - goodbye
+  - weather
+
+actions:
+- utter_greet
+- utter_rain
+- utter_sunny
+- utter_goodbye
+- utter_default
+
+templates:
+  utter_greet:
+  - text: "Hey! How are you?"
+
+  utter_goodbye:
+  - text: "Bye"
+
+  utter_rain:
+  - text: "Yes"
+
+  utter_sunny:
+  - text: "Not at all"
+
+  utter_default:
+  - text: "Default"
